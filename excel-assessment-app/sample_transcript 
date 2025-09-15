@@ -1,0 +1,20 @@
+=== INTERVIEW SESSION ===
+Candidate: Sarah Johnson
+Duration: 4:23 / 5:00 minutes
+Questions Asked: 8 (6 core + 2 follow-ups)
+
+[00:15] AI: "What is the difference between relative, absolute, and mixed cell references in Excel? Give an example of when you would use an absolute reference."
+
+[00:45] USER: "Relative references change when you copy formulas to other cells, like A1 becomes B1 when copied right. Absolute references stay fixed using dollar signs, like $A$1. Mixed references fix either row or column, like $A1 or A$1. I'd use absolute references for tax rates in calculations - if cell B1 contains 8.5% tax rate, I'd reference it as $B$1 so it doesn't change when I copy the formula down a column of prices."
+
+[01:15] AI: "That's a solid understanding. Can you walk me through a specific scenario where you might use a mixed reference instead of an absolute reference?"
+[FOLLOW-UP GENERATED - Score: 4/5]
+
+[01:45] USER: "Sure! Mixed references are great for multiplication tables or lookup scenarios. If I have months across row 1 and products down column A, and I want to calculate sales targets, I might use A$2*$B2 - the A fixes the column but lets the row change."
+
+[02:10] AI: "Excellent example. Let's move to the next question. Explain the purpose of the IFERROR function..."
+
+PERFORMANCE SUMMARY:
+- Core Questions Score: 4.2/5.0
+- Follow-up Responses: 2/2 answered
+- Proficiency Level: Expert
